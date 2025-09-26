@@ -19,12 +19,11 @@ header img {
 /* FINE HEADER */
 /* INIZIO PRIMO DIV */
 #firstdiv{
-    background-image: url(../images/banner.jpg);
-    width: 450px;
-    height: 450px;
-    background-position: center;
-    background-size: contain;
-    object-fit: cover;
+   background-image: url(../images/banner.jpg);
+   width: 450px;
+   height: 450px;
+   background-size: cover;
+   background-position: center;
 }
 #firstdiv h1 {
     font-size: xxx-large;
@@ -92,6 +91,7 @@ header img {
 font-size: xxx-large;
 padding-top:15%;
 padding-bottom:25px;
+font-weight: bold;
 }
 #thirddiv p:first-of-type{
 margin-top: 30px;
@@ -116,5 +116,104 @@ padding-right: 50px;
     line-height: 1.6;
 }
 #fourthdiv img{
-    
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom:0%;
+    margin-bottom: 0%;
+}
+#fourthdiv h3{
+    font-size: x-large;
+   font-weight: bold;
+   color: #25a2c3;
+}
+#fourthdiv p{
+    color: black;
+    font-size: 1.2em;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+/* FINE QUARTO DIV */
+/* INIZIO QUINTO DIV */
+#fifthdiv{
+    background-color: white;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+#fifthdiv img{
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom:0%;
+    margin-bottom: 0%;
+}
+#fifthdiv h3{
+    font-size: x-large;
+   font-weight: bold;
+   color: #25a2c3;
+}
+#fifthdiv p{
+    color: black;
+    font-size: 1.2em;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+/* FINE QUINTO DIV */
+/* INIZIO SESTO DIV */
+#sixthdiv{
+    background-color: white;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom:100px;
+}
+#sixthdiv img{
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom:0%;
+    margin-bottom: 0%;
+}
+#sixthdiv h3{
+    font-size: x-large;
+   font-weight: bold;
+   color: #25a2c3;
+}
+#sixthdiv p{
+    color: black;
+    font-size: 1.2em;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+/* FINE SESTO DIV */
+/* INIZIO FOOTER */
+#footer{
+      background-color:#25a2c3;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color:white;
+}
+#footer h2{
+    color: white;
+    font-size: xxx-large;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: bold;
+}
+#footer ul{
+list-style-type: none;
+margin-bottom:25px;
+}
+#footer a{
+    color: white;
+}
+#footer hr{
+    width: 200px;
+    margin: 15px 112,5;
+}
+#footer p{
+    padding-bottom: 40px;
+    margin-top:25px;
 }
